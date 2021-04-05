@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rpc-http" />
+        <module name="rpc-http-provider" />
+        <module name="rpc-http-api" />
+        <module name="rpc-http-consumer" />
+        <module name="rpc-http-core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rpc-demo" target="1.8" />
+      <module name="rpc-http" target="8" />
+      <module name="rpc-http-api" target="8" />
+      <module name="rpc-http-consumer" target="8" />
+      <module name="rpc-http-core" target="8" />
+      <module name="rpc-http-provider" target="8" />
+      <module name="rpc-provider" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rpc-http" options="-parameters" />
+      <module name="rpc-http-api" options="-parameters" />
+      <module name="rpc-http-consumer" options="-parameters" />
+      <module name="rpc-http-core" options="-parameters" />
+      <module name="rpc-http-provider" options="-parameters" />
+      <module name="rpc-provider" options="-parameters" />
+    </option>
+  </component>
+</project>

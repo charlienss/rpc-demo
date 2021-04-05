@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="mavenExecutorSetting">
+    <option name="defaultSettings">
+      <ExecutionSettings>
+        <option name="projectsToBuild">
+          <list>
+            <ProjectToBuild>
+              <option name="displayName" value="rpc-demo" />
+              <option name="mavenArtifact">
+                <MavenArtifact>
+                  <option name="groupId" value="com.home" />
+                  <option name="artifactId" value="rpc-demo" />
+                  <option name="version" value="0.0.1-SNAPSHOT" />
+                </MavenArtifact>
+              </option>
+              <option name="projectDictionary" value="$PROJECT_DIR$" />
+            </ProjectToBuild>
+          </list>
+        </option>
+        <option name="collapseModules">
+          <set>
+            <MavenGroupAndArtifactKey>
+              <option name="groupId" value="com.home" />
+              <option name="artifactId" value="rpc-http" />
+            </MavenGroupAndArtifactKey>
+            <MavenGroupAndArtifactKey>
+              <option name="groupId" value="com.home" />
+              <option name="artifactId" value="rpc-http-api" />
+            </MavenGroupAndArtifactKey>
+            <MavenGroupAndArtifactKey>
+              <option name="groupId" value="com.home" />
+              <option name="artifactId" value="rpc-http-consumer" />
+            </MavenGroupAndArtifactKey>
+            <MavenGroupAndArtifactKey>
+              <option name="groupId" value="com.home" />
+              <option name="artifactId" value="rpc-http-core" />
+            </MavenGroupAndArtifactKey>
+            <MavenGroupAndArtifactKey>
+              <option name="groupId" value="com.home" />
+              <option name="artifactId" value="rpc-http-provider" />
+            </MavenGroupAndArtifactKey>
+          </set>
+        </option>
+      </ExecutionSettings>
+    </option>
+    <option name="visibleSettings">
+      <set>
+        <option value="PROFILES" />
+        <option value="OPTIONAL_JVM_OPTIONS" />
+        <option value="THREAD_COUNT" />
+        <option value="OFFLINE_MODE" />
+        <option value="ALWAYS_UPDATE_SNAPSHOT" />
+        <option value="SKIP_TESTS" />
+        <option value="FAVORITE" />
+      </set>
+    </option>
+    <option name="visibleSettingsNotInitYet" value="false" />
+  </component>
+</project>
