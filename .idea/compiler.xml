@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="rpc-http-core" />
+        <module name="rpc-http-consumer" />
         <module name="rpc-http" />
         <module name="rpc-http-provider" />
         <module name="rpc-http-api" />
-        <module name="rpc-http-consumer" />
-        <module name="rpc-http-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
